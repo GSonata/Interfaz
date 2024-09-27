@@ -1,4 +1,6 @@
 :root{
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     --font-color-cta: #f1f1f1;
+    --font-size-cta: 5rem;
+    --background-header-color: rgba(142, 142, 238, 0.774);
   }
