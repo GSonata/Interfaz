@@ -3,7 +3,7 @@
 
 
 section#cta{
-    outline: solid 1px red;
+    outline: solid 1px rgb(0, 0, 0);
     height:50vh;
     background-image: url(../images/foto-cta.jpg);
     background-position: center;

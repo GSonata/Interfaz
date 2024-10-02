@@ -1,6 +1,10 @@
 :root{
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     --font-color-cta: #f1f1f1;
+    --small-font-color: #f5ba61;
     --font-size-cta: 5rem;
     --background-header-color: rgba(142, 142, 238, 0.774);
+    --background-footer-color: rgb(122, 122, 184);
+    --font-family-header : "Outfit", system-ui;
+    --site-width: 900px ;
   }

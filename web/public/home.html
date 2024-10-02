@@ -11,6 +11,32 @@
 
   </head>
   <body>
+
+    <aside id="offcanvas">
+      <div class="tituloOff">
+      <h2> Reserva mesa </h2>
+    </div>
+      <form action="">
+          <div class="control">
+             <label for="email">Email</label>
+             <input type="email" placeholder="Introduzca su correo"id="email" name="email">
+          </div>
+          <div class="control">   
+             <label for="fecha">Fecha</label>
+             <input type="datetime-local" id="fecha" name="fecha">
+          </div>
+          <div class="control">
+             <label for="comensales">Pesonas</label>
+             <input type="number" min="1" max="5" value="1" id="personas" name="personas">
+          </div>
+          <input type="hidden" name="lenguaje" id="lenguaje">
+
+          <div class="control">
+            <button>Enviar</button>
+          </div>
+      </form>
+      <button class="close">&times;</button>
+    </aside>
     <header id="top">
       <nav class="menu">
         <img src="https://picsum.photos/150/40" alt="Logo del restaurante">
@@ -28,7 +54,7 @@
             <li><a href="#">Contacto</a></li>
         </ul>
         <ul>
-            <li><a href="#">Reservar</a></li>
+            <li><a class="botonReserva">Reservar</a></li>
         </ul>
         <ul class="mobile-open-menu">
           <li><a id="open-menu" href="#">Menu</a></li>
@@ -42,7 +68,64 @@
         Disfruta de la verdadera comida española, a un precio asequible en pleno
         centro de malaga
       </p>
-      <a href="">Haz tu reserva ahora</a>
+      <a class="botonReserva">Haz tu reserva</a>
     </section>
+
+    <main>
+        <section id="presentation" class="col2">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <div class="inner">
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, molestias corporis? Quae, delectus quo voluptates minus ea explicabo blanditiis vero, sit aperiam molestiae amet labore officia fuga provident illum recusandae vel sed nostrum dignissimos minima suscipit reiciendis consequatur ab? Repellendus officia, possimus incidunt impedit veritatis nisi voluptatum fugit illo facilis ullam libero porro eligendi tenetur ex magni. Modi, odio repellat! Similique, repudiandae. Amet veniam eaque ratione laborum maxime iure libero reprehenderit deleniti cum, repudiandae corrupti ipsa. Ipsum libero at quos nostrum dicta. Rerum eum non voluptates, consequuntur est esse, dolorum optio ad saepe suscipit dolores repudiandae dignissimos consequatur tempora laboriosam.
+            </div>
+            <div>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio corporis labore numquam accusamus unde repellat magni iure neque? Aliquid exercitationem voluptate pariatur libero fuga. Distinctio sapiente expedita tempora autem doloribus dolores error molestiae maxime, officia placeat aut quibusdam quod natus tempore aperiam, necessitatibus sit, nesciunt adipisci quam earum praesentium fuga minima ex? Assumenda vero sequi aspernatur maiores nihil provident illum.
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <div>
+          <h2>Sobre nuestra empresa</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis repellendus alias enim consequuntur. Earum, minus explicabo quis numquam neque odio impedit error unde autem fugiat eveniet placeat assumenda sequi 
+            quidem!</p>
+            <p>
+              <a href="#"><img class="social-icon" src="images/iconos/whatsapp.png" alt=""></a>
+              <a href="#"><img class="social-icon" src="images/iconos/facebook.png" alt=""></a>
+              <a href="#"><img class="social-icon" src="images/iconos/tik-tok.png" alt=""></a>
+            </p>
+        </div>
+        <div>
+          <h2>Enlaces legales</h2>
+          <ul>
+            <li><a href="#">Enlace Social 1</a></li>
+            <li><a href="#">Enlace Social 2</a></li>
+            <li><a href="#">Enlace Social 3</a></li>
+            <li><a href="#">Enlace Social 4</a></li>
+            <li><a href="#">Enlace Social 5</a></li>
+          </ul>
+        </div>
+        <div class="formulario">
+          <h2>Acceso a administración</h2>
+          <form action="">
+            <div class="control">
+              <label for="user">Usuario</label>
+              <input id="user" name="usuario" type="text">
+            </div>
+            <div class="control">
+              <label for="password">Contraseña</label>
+              <input id="password" name="password" type="text">
+            </div>
+            <button>Acceder</button>
+          </form>
+        </div>
+      </div>
+      <div>
+        Developed by 2DAW
+      </div>
+    </footer>
+    <script src="./javascripts/front.js"></script>
   </body>
 </html>
